@@ -1,0 +1,78 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0;
+  background-image: url('images/notebook-background.png'); /* Ruta de la imagen del cuaderno */
+  background-size: cover; /* Asegura que la imagen cubra toda la pantalla */
+  background-repeat: no-repeat; /* Evita que la imagen se repita */
+  background-attachment: fixed; /* Hace que la imagen de fondo no se desplace con el contenido */
+  color: #333; /* Contraste para los textos sobre el fondo */
+}
+
+
+.cuaderno {
+  width: 800px;
+  border: 1px solid #ccc;
+  padding: 20px;
+  margin: 40px auto;
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+header {
+  background-color: #f7f7f7;
+  padding: 20px;
+  text-align: center;
+}
+
+h1 {
+  font-size: 36px;
+  margin-bottom: 10px;
+}
+
+.muñequito-gif {
+  margin-top: 20px;
+}
+
+.muñequito-gif img {
+  width: 150px;
+  height: auto;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+section {
+  background-color: #fff;
+  padding: 20px;
+  margin-bottom: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+section img {
+  display: block;
+  margin: 0 auto;
+  max-width: 100%; /* Asegura que no sobrepase el ancho del contenedor */
+  height: auto; /* Mantiene la proporción de la imagen */
+}
+
+h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+iframe {
+  border: none;
+  width: 800;
+  height: 600;
+  overflow: hidden;
+}
+
+footer {
+  background-color: #f7f7f7;
+  padding: 20px;
+  text-align: center;
+  clear: both;
+}

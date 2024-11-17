@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Las Aventuras de Stick-X</title>
+  <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+  <div class="cuaderno">
+    <header>
+      <h1>Las Aventuras de Stick-X</h1>
+      <p>Stick-X enfrenta al Lápiz Travieso en un cuaderno mágico. ¡Ayúdalo a destruir cajas y resolver los desafíos!</p>
+      <div class="muñequito-gif">
+        <img src="sprites/stickman.gif" alt="Animación de Stick-X" />
+      </div>
+    </header>
+    <main>
+      <section id="introduccion">
+        <h2>El duelo entre Stick-X y el Lápiz Travieso</h2>
+        <p>
+          En el mágico mundo del cuaderno, Stick-X debe enfrentarse al Lápiz Travieso, quien dibuja cajas para bloquear su camino.
+          ¡Demuestra tu habilidad y gana esta batalla!
+        </p>
+        <img src="images/pencil-vs-stickman.png" alt="Stick-X enfrentando al lápiz travieso">
+      </section>
+      <section id="juego">
+        <h2>Juega ahora</h2>
+        <p>
+          Controles:
+          <ul>
+            <li><strong>Flechas:</strong> Mover a Stick-X</li>
+            <li><strong>Espacio:</strong> Destruir cajas</li>
+          </ul>
+        </p>
+        <div id="game-container"></div> <!-- Contenedor del juego -->
+      </section>
+      <section id="contacto">
+        <h2>Contacta con nosotros</h2>
+        <p>¿Tienes sugerencias o dudas? ¡Queremos saber de ti!</p>
+        <form>
+          <input type="email" placeholder="Correo electrónico">
+          <button>Enviar</button>
+        </form>
+      </section>
+    </main>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/phaser@3.50.1/dist/phaser.min.js"></script>
+  <script src="js/index.js"></script>
+</body>
+</html>
